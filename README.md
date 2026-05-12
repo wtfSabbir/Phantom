@@ -1,4 +1,4 @@
-# Pointcept — Static LiDAR Semantic Segmentation
+# Phantom — Static LiDAR Semantic Segmentation
 
 Semantic segmentation of static terrestrial LiDAR point clouds using **Point Transformer V3 (PTv3)** within the [Pointcept](https://github.com/Pointcept/Pointcept) framework.
 
