@@ -1,0 +1,6 @@
+outs:
+- md5: 2a37db6397fa030f2bcd6ed7f18aa41b.dir
+  size: 8309835676
+  nfiles: 306
+  hash: md5
+  path: laz

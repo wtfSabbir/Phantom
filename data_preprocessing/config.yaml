@@ -1,0 +1,25 @@
+
+# SECTION A: PREPROCESSING (Used by data_preprocessing.py)
+preprocessing:
+
+ # FOR V1 (MODEL WITH 4 CHANNELS)
+  # Where your .laz files are right now
+  raw_root: "/mnt/d/PointCloudsFiles/Unclassified_Data/tmp"
+  
+  # Where the script will save the .npy files (Training reads from here)
+  processed_root: "/mnt/d/PointCloudsFiles/Unclassified_Data/tmp2"
+
+  # The Logic: Raw_ID -> Training_ID (255 = Ignore)
+  class_map:
+    0: 0   # Unclassified → Ignore during training
+    1: 1     # Ground       → 1
+    2: 2     # Pole         → 2
+    3: 3     # Sign         → 3
+
+# FOR V2 (MODEL WITH 5 CHANNELS)
+train_gt_dir:   /home/sabbir/My_Projects/Pointcept/data_preprocessing/gt/train
+val_gt_dir:     /home/sabbir/My_Projects/Pointcept/data_preprocessing/gt/val
+train_v1_dir:   /home/sabbir/My_Projects/Pointcept/data_preprocessing/v1_pred/train
+val_v1_dir:     /home/sabbir/My_Projects/Pointcept/data_preprocessing/v1_pred/val
+output_npy_dir: /home/sabbir/My_Projects/Pointcept/data_preprocessing/dataV2
+ignore_index:   255

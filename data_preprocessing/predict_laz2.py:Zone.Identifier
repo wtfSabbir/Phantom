@@ -1,0 +1,4 @@
+[ZoneTransfer]
+ZoneId=3
+ReferrerUrl=https://claude.ai/chat/ddba3f7c-cd56-4d90-a706-4f28cdb2a468
+HostUrl=https://claude.ai/api/organizations/fe5cc8e2-ba79-4e82-a1fa-366b78acd5bf/conversations/ddba3f7c-cd56-4d90-a706-4f28cdb2a468/wiggle/download-file?path=%2Fmnt%2Fuser-data%2Foutputs%2Fpredict_laz2.py

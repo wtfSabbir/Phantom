@@ -1,0 +1,6 @@
+train_gt_dir:   /mnt/d/PointCloudsFiles/Pointcept/Refinement_PTv3/gt/train
+val_gt_dir:     /mnt/d/PointCloudsFiles/Pointcept/Refinement_PTv3/gt/val
+train_v1_dir:   /mnt/d/PointCloudsFiles/Pointcept/Refinement_PTv3/v1_pred/train
+val_v1_dir:     /mnt/d/PointCloudsFiles/Pointcept/Refinement_PTv3/v1_pred/val
+output_npy_dir: /mnt/d/PointCloudsFiles/Pointcept/Refinement_PTv3/DataV2
+ignore_index:   255
