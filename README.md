@@ -24,7 +24,7 @@ Both models support **Test-Time Augmentation (TTA)** at inference for improved p
 | 6 | Vegetation | Trees, bushes, hedges |
 | 7 | Building | Building facades, walls |
 | 8 | Fence | Fences |
-| 9 | Gate | Gates, barriers |
+| 9 | Gate | Small Cross Gates, barriers |
 
 > Class 0 (Unclassified) and class 255 are ignored during training loss computation.
 
